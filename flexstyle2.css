@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding-left:150px;
+    padding-bottom: 1000px;
+}
+.top_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    z-index: 1;
+}
+.youtube_img{
+    height: 40px;
+}
+.search-bar{
+    flex: 1;
+    font-size: 20px;
+    box-shadow: inset 1px 2px 3px 0 rgba(0, 0, 0,0.5) ;
+    border-radius: 40px 0 0 40px;
+    padding-left: 20px;
+}
+.left_sect{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.middle_sect{
+    max-width: 500px;
+    display: flex; 
+    justify-content: space-between;
+    flex: 1;
+}
+
+.right_sect{
+    display: flex;
+    padding-right: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-img{
+    height: 40px;
+}
+.search-button{
+    margin-right: 10px;
+    border-radius: 0 40px 40px 0;
+}
+.sign{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+.menu{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.main_page{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-top: 90px;
+}
+.video_info_grid{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.firstThumbnail{
+    position: relative;
+}
+
+.thumnail1{
+    width: 100%;
+    position: relative;
+}
+.profileimg{
+    border-radius: 50%;
+}
+.firstvideopreview{
+    margin-top: 0px;
+}
+.pro{
+    width: 50px;
+    height: 30px;
+    border-radius: 20px;
+}
+.side_bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 212, 176);
+    position: fixed;
+    top: 90px;
+    width: 150px;
+    left: 0;
+    z-index: 2;
+    bottom: 0;
+}
+.time{
+    position: absolute;
+    right: 5px;
+    bottom: 7px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 5px;
+}
+.remain{
+    position: absolute;
+    top: 0;
+    right: 7px;
+    font-size: 15px;
+    background-color: red;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: default;
+}
+.notification{
+    position: relative;
+}
+

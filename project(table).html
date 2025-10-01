@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project(table).css">
+    <title>student page</title>
+</head>
+<body>
+    <nav>
+        <h2>
+            friends forever
+        </h2>
+    </nav>
+        <h1 id="table"></h1>
+        <main>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">studentID</th>
+                        <th>Exam DAte</th>
+                        <th>GPA</th>
+                        <th>course</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2" rowspan="3" class="studentID">
+                            
+                        </td>
+                        <td>
+                            20/07/2021
+                        </td>
+                        <td>
+                            4.5
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            20/07/2021
+                        </td>
+                        <td>
+                            4.5
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            20/07/2021
+                        </td>
+                        <td>
+                            4.5
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">studentID</th>
+                        <th>Exam DAte</th>
+                        <th>GPA</th>
+                        <th>course</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2" rowspan="3" class="studentID">
+                            
+                        </td>
+                        <td>
+                            20/07/2021
+                        </td>
+                        <td>
+                            4.5
+                        </td>
+                    </tr>
+                    <tr>
+                         <td>
+                            20/07/2021
+                        </td>
+                        <td>
+                            4.5
+                        </td>
+                    </tr>
+                    <tr>
+                         <td>
+                            20/07/2021
+                        </td>
+                        <td>
+                            4.5
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">studentID</th>
+                        <th>Exam DAte</th>
+                        <th>GPA</th>
+                        <th>course</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2" rowspan="3" class="studentID">
+                            
+                        </td>
+                        <td>
+                            20/07/2021
+                        </td>
+                        <td>
+                            4.5
+                        </td>
+                    </tr>
+                    <tr>
+                         <td>
+                            20/07/2021
+                        </td>
+                        <td>
+                            4.5
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            20/07/2021
+                        </td>
+                        <td>
+                            4.5
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">studentID</th>
+                        <th>Exam DAte</th>
+                        <th>GPA</th>
+                        <th>course</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2" rowspan="3" class="studentID">
+        
+                        </td>
+                        <td>
+                            20/07/2021
+                        </td>
+                        <td>
+                            4.5
+                        </td>
+                    </tr>
+                    <tr>
+                         <td>
+                            20/07/2021
+                        </td>
+                        <td>
+                            4.5
+                        </td>
+                    </tr>
+                    <tr> 
+                        <td>
+                            20/07/2021
+                        </td>
+                        <td>
+                            4.5
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    <script>
+        let storedItem = localStorage.getItem("studentID")
+        let studentIDs = document.querySelectorAll(".studentID");
+         let studentIDTable = document.getElementById("table");
+        studentIDs.forEach((studentID)=>{
+            studentID.textContent = storedItem;
+        })
+        studentIDTable.textContent = storedItem +" reports for the last four years"
+    </script>
+</body>
+</html>

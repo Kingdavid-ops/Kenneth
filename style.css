@@ -1,0 +1,96 @@
+/* dl{
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.top-bar{
+    display: flex;
+    padding: 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #a9cac0;
+} */
+  .maincontainer{
+            width: 400px;
+        }
+        .search-bar{
+            background: url(Images/search_icon.svg) no-repeat 2px 50%;
+            padding-left: 15px;
+            background-size: 12px;
+            width: 200px;
+            border-radius: 10px;
+            display: block;
+            border-width: 1px;
+            background-color: rgb(232, 227, 160);
+        }
+        .first{
+            background-color: blue;
+            margin-bottom: o;
+            color: white;
+        }
+        .second{
+            margin-bottom: 0;
+        }
+        button{
+           background-color: bisque;
+           height: 30px;
+           width: 100px;
+           cursor: pointer;
+        }
+        .read{
+            background-color: aliceblue;
+            height: 30px;
+            /* color: white; */ 
+            margin-top: 5px ;
+        }
+        .read:active{
+            background-color: #02fcfc;
+        }
+        .click{
+            background-color: white;
+            border-color: blue;
+            color: blue;
+            transition: background-color 0.5s,
+            color 0.5s;
+            width : 120px;
+            border-style: solid;
+            border-width: 1px;
+        }
+        .click:hover{
+            background-color: blue;
+            /* border-radius: 10px; */
+            /* box-shadow: 0,0,10,5 rgba(0, 0, 0, 0.5) ; */
+            
+            color: white;
+        }
+        .subscribe{
+            background-color: red;
+            margin-right: 80px;
+            transition: 0.3s;
+        }
+        .subscribe:hover{
+            /* background-color: rgb(182, 23, 23); */
+            border-radius: 10px;
+        }
+        .subscribe:active{
+            opacity: 0.5;
+        }
+
+        .here:hover{
+            color: #02fcfc;
+            cursor: pointer;
+        }
+        .services{
+            cursor: pointer;
+        }
+        .image{
+            width: 100;
+            margin-top: 10px;
+        }
+        .learn{
+            display: inline-block;
+            font-weight: bold;
+        }
+        
+       

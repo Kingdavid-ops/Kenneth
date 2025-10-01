@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="container"></main>
+        <form action="project(table).html" method="post" onsubmit="handleLogin(event)">
+            <div>
+                <label for="studentID">studentId <br><input  spellcheck="false" type="text" name="studentID" id="studentID" placeholder="eg.STUIGF1234"  required"></label>
+            </div><br>
+            <div>
+            <label for="password">password <br><input type="password" name="password" id="password"></label>
+            </div><br>
+            <div>
+                <label for="checkbox"><input type="checkbox" name="checkbox" id="checkbox"> Remember me</label>
+            </div><br>
+            <input type="submit" class="button" value="Login">
+        </form>
+    <script>
+        function handleLogin(e) {
+            e.preventDefault()
+            let studentID = document.getElementById("studentID").value
+            localStorage.setItem("studentID",studentID)
+            window.location.href = "project(table).html"
+        }
+    </script>
+</body>
+</html>

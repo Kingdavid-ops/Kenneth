@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding-left:150px;
+    padding-bottom: 1000px;
+    font-family: sans-serif;
+}
+
+.main_page{
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+.video_info_grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    column-gap: 30px;
+}
+
+.thumnail1{
+    width: 100%;
+}
+.profileimg{
+    border-radius: 50%;
+}
+.firstvideopreview{
+    margin-top: 0px;
+}
+
+.menu{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.pro{
+    width: 50px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.time{
+    position: absolute;
+    right: 5px;
+    bottom: 7px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 5px;
+}
+
+
+.firstThumbnail{
+    position: relative;
+}
+@media ((min-width: 300px) AND (max-width: 500px)){
+    .main_page{
+        grid-template-columns: 1fr;
+    }
+}
+@media ((min-width: 501px) AND (max-width: 900px)){
+    .main_page{
+        grid-template-columns: 1fr 1fr;
+    }
+}

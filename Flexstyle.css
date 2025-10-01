@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding-left:150px;
+    padding-bottom: 1000px;
+}
+/* .search-bar{
+    
+    padding-left: 20px;
+
+    width: 500px;
+    height: 40px;
+    border-radius: 40px 0 0 40px;
+    font-size: 20px;
+    border: none;
+    border-width: 1px;
+    background-color: #212121;
+    box-shadow: 1px 1px #000;
+}
+.search-bar:active{
+    background: url(search.svg) no-repeat 470px 50%; 
+    background-size: 20px;
+} */
+.main_page{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-top: 81px;
+    background-image: url(Images/Micheal.jpg);
+}
+.video_info_grid{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.thumnail1{
+    width: 100%;
+}
+.profileimg{
+    border-radius: 50%;
+}
+.firstvideopreview{
+    margin-top: 0px;
+}
+.youtube_img{
+    width: 100px;
+}
+.voice{
+    background-color: #202020;
+    border-radius: 50%;
+}
+.top_bar{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #444;
+    padding: 1rem;
+}
+.text{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.sign-in{
+    align-items: center;
+}
+.sign{
+    display: flex;
+    align-items: center;
+    background-color: #222222;
+    border-radius: 20px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+.sign:hover{
+    background-color: #333333;
+}
+.search-button{
+    height: 40px;
+    border-radius: 0px 40px 40px 0px;
+    /* box-shadow: 1px 1px #000; */
+    border: 1px;
+    background-color: #333333;
+}
+.search-img{
+    padding: 5px 10px ;
+    height: 32px;
+    width: 64px;
+}
+.divine{
+    display: flex;
+    /* flex: 1; */
+    /* position: relative; */
+    margin: 0 0 0 40px;
+    padding: 0 4px;
+    height: 40px;
+    color: #f1f1f1;
+}
+.side_bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 212, 176);
+    position: fixed;
+    top: 11.8vh;
+    width: 150px;
+    left: 0;
+    bottom: 0;
+}
